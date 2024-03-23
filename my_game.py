@@ -1,6 +1,6 @@
 #Name: Manzi Fabrice Niyigaba
 #Date: March 5th 2024
-#Purpose: Creating fruit catch game
+#Purpose: Creating fruit catch game(FruitFall Fiesta)
 
 #Description:
 # This code execute the fruit catch game where the fruit are being drawn randomly.
@@ -8,19 +8,6 @@
 # it also records the score if the fruit is caught and reduce the score if the fruit is missed
 # when the score reaches a certain point the speed and the rate of falling of the fruit starts to gradually increase
 # however, there is the limit for this increase to make the game possible to play
-# I used HD image of the fruit and the cart and I had to edit them and make their background transparent to add neatness to the game
-# Moreover the background is an elegant image to give the player good mood as they enjoy the game
-
-# key challenges:
-# I tried to change the image of the cart into something more elegant when the player reaches the certain score to motivate them
-# I tried to use change the global image of the cart but it didn't work. This is something that I still have to figure out
-
-
-#Areas for future improvement:
-# I am thinking about introducing special fruit that can boost the score once caught
-# This can make the game more interesting to play
-
-
 
 
 from cs1lib import *
