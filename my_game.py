@@ -1,7 +1,3 @@
-#Name: Manzi Fabrice Niyigaba
-#Date: March 5th 2024
-#Purpose: Creating fruit catch game(FruitFall Fiesta)
-
 #Description:
 # This code execute the fruit catch game where the fruit are being drawn randomly.
 # The key to move the cart are "k" and "m"
@@ -89,11 +85,6 @@ def draw_fruits():
 def check_collisions():
     global score
     for char in myfruits[:]:
-        # I struggled with making the fruit disappear
-        # I used this website to learn about shallow copy https://docs.python.org/3/library/copy.html
-        # I learned that you can create a shallow copy of the list and remove items from it always
-        # This help us to mimic the disappearing of the fruit without affection our overall list
-
         if char['y'] + fruit_size >= box.y and char['x'] >= box.x and char['x'] <= box.x + WID:
             score += 1
             myfruits.remove(char)
