@@ -1,8 +1,4 @@
 #Name: Manzi Fabrice Niyigaba
-#Date: March 5th 2024
-#Purpose: This class is responsible for drawing and updating the cart
-
-
 from cs1lib import *
 
 W_H = 700
