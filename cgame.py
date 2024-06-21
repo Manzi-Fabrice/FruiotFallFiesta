@@ -1,4 +1,4 @@
-#Name: Manzi Fabrice Niyigaba
+# Purpose: This class is responsible for moving the cart 
 from cs1lib import *
 
 W_H = 700
